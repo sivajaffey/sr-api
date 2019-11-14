@@ -1,8 +1,11 @@
-#question-table 
-user_id, tags-arr, question, question_id
+#db
+srdb
 
-#answer_table
+#question_table 
+user_id, tags, question, ques_id
+
+#answers_table
 user_id, question_id, answer, answer_id
 
-#tags-table
+#tag_table
 tag_id, tag
